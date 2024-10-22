@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 0;
+
+    .container-fluid {
+        .navbar-brand {
+            padding: 10px 20px;
+        }
+    }
+
+    #navbarSupportedContent {
+        gap: 80px;
+        padding: 20px 10px;
+
+        a {
+            font-size: 20px;
+        }
+
+        a:hover {
+            color: blue;
+        }
+    }
+
+    .d-flex {
+        gap: 20px;
+
+        .btn {
+            height: 50px;
+            width: 150px;
+        }
+    }
+}
